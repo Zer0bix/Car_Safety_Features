@@ -1,0 +1,66 @@
+* {
+    color: white;
+}
+
+body {
+    background-size:100%;
+    background-image:url("../Images/full_forest.avif");
+    opacity: 90%;
+    background-color: black;
+    }
+
+.button {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.5));
+    height: 36;
+    width:100;
+    border-radius: 10px;
+    align-self: center;
+    
+}
+
+.tablinks {
+    height: 36;
+    width:100;
+    border-radius: 10px;
+    align-self: center;
+    background-image: linear-gradient(rgba(55, 155, 155, 0.9), rgba(0, 0, 0, 0.8));
+    transition-duration: 0.5s;
+}
+
+.tablinks:hover {
+    box-shadow: 0 12px 16px 0 rgba(200,200,200,0.24), 0 17px 50px 0 rgba(250,20,250,0.19);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+  }
+
+Table, tr, th {
+    border-bottom:1px solid rgba(255, 0, 255, 0.9);
+    border-top:1px solid rgba(255, 0, 255, 0.9);
+    border-left:1px solid rgba(255, 0, 255, 0.9);
+    border-right:1px solid rgba(255, 0, 255, 0.9);
+    width: 50%;
+}
+
+a {
+    background-color: #e5786e;
+    background-image: url('Images/Tree_1.png');
+    color: rgb(67, 225, 80);
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#output {
+    text-shadow: 0 0 3px #ff0000;
+    font-family: "Papyrus";
+    position: absolute;
+    right: 100px;
+}
+#tree_count_logo {
+    position: absolute;
+    right: 125
+}

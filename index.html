@@ -1,0 +1,26 @@
+<HTML>
+    <head>
+    <script>
+        function open_tab(tab) {
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        document.getElementById(tab).style.display = "block";
+    }
+    </script>
+    <link rel="stylesheet" href="car.css">
+</head>
+    <body>
+        <divtabs>
+            <input id="Tab_1" onclick="open_tab('tab_1');" type="button" class="tablinks" value="Main"></input>
+            <input id="Tab_2" onclick="open_tab('tab_2');" type="button" class="tablinks" value="Seatbelts"></input>
+            <input id="Tab_3" onclick="open_tab('tab_3');" type="button" class="tablinks" value="Airbags"></input>
+            <input id="Tab_4" onclick="open_tab('tab_4');" type="button" class="tablinks" value="Electric Battery"></input>
+            <input id="Tab_5" onclick="open_tab('tab_5');" type="button" class="tablinks" value="Non-included"></input>
+        </divtabs>  
+        <divtab1 id="tab_1" style="display:block" class="tabcontent">
+            <p>Seatbelt - The seatbelt is utilized to reduce forward movement in the wearer during a crash. Upon a crash, the seatbelt will give way only a small amount before becoming taut, which causes the force of the inertia of the wearer to be transferred into the seatbelt, where it is then lost into the ground. When a seatbelt is not in use, the non-wearer will be much more likely to injure themselves due to crashing against the steering wheel, the front of the car, or the chair in front of them. When the airbag is also activated, the seatbelt prevents smashing with too much force into the airbag, which could cause injury</p>
+        </divtab1>
+    </body>
+</HTML>
